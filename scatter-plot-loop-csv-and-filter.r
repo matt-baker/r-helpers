@@ -1,5 +1,5 @@
 # Used to loop through csv files that contained x/y points coded by year and output scatter plot.
-# sqld is used in the loop to select each year
+# sqldf is used in the loop to select each year
 
 # Setup
 workingDir="I:/" 
