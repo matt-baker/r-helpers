@@ -41,7 +41,7 @@ for (i in 1:length(files)){
 		x <- thisData$xField
 		y <- thisData$yField
 
-		plot(x,y,col=colour, pch=20, main=mapTitle,xlab="X axis label", ylab="Y axis label")
+		plot(x,y,col=colour, pch=20, main=mapTitle,xlab="X axis label", ylab="Y axis label", xaxs="i", yaxs="i")
 		dev.off()
 	}
 
