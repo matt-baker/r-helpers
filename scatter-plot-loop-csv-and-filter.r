@@ -42,6 +42,8 @@ for (i in 1:length(files)){
 		y <- thisData$yField
 
 		plot(x,y,col=colour, pch=20, main=mapTitle,xlab="X axis label", ylab="Y axis label", xaxs="i", yaxs="i")
+		
+		abline(v=(seq(1,2,0.5)), h=(seq(0,10000,1000)), col="lightgray", lty="dotted") # Grid lines
 		dev.off()
 	}
 
